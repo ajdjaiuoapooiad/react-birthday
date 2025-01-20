@@ -9,7 +9,7 @@ const App = () => {
   
   return (
     <main>
-      <section>
+      <section className="container">
         <h3>{people.length} birthday today</h3>
         <List people={people} />
       </section>
